@@ -20,11 +20,6 @@ spring:
         testOnReturn: false
         poolPreparedStatements: true
         maxOpenPreparedStatements: 20
-    rabbitmq:
-        host: 192.168.21.131
-        port: 5672
-        username: admin
-        password: admin
 mybatis:
     type-aliases-package: com.example.service1.models
     mapper-locations: classpath:mybatis/mapper/*.xml

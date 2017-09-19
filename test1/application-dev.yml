@@ -25,19 +25,6 @@ spring:
         port: 5672
         username: admin
         password: admin
-    consul:
-          host: 192.168.21.131
-          port: 8500
-          enabled: true
-          discovery:
-            enabled: true
-            instance-id: service1
-            service-name: service1
-            hostname: 192.168.1.86
-            port: 7081
-            health-check-url: http://192.168.1.86:7081/health
-            health-check-interval: 10s
-            tags: dev
 mybatis:
     type-aliases-package: com.example.service1.models
     mapper-locations: classpath:mybatis/mapper/*.xml
